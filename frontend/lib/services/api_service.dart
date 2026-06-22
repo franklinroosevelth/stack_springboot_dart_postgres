@@ -8,7 +8,7 @@ class ApiService {
     if (kIsWeb) {
       return 'http://72.61.163.213:8081/api/todos';
     }
-    return 'http://10.0.2.2:8081/api/todos';
+    return 'http://72.61.163.213:8081/api/todos';
   }
 
   static Future<List<Todo>> getTodos() async {
