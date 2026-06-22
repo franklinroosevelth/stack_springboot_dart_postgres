@@ -6,7 +6,7 @@ import '../models/todo.dart';
 class ApiService {
   static String get baseUrl {
     if (kIsWeb) {
-      return 'http://localhost:8081/api/todos';
+      return 'http://72.61.163.213:8081/api/todos';
     }
     return 'http://10.0.2.2:8081/api/todos';
   }

@@ -36,9 +36,9 @@ docker-compose up --build
 ```
 
 L'application sera accessible sur :
-- **Frontend** : http://localhost:8080
-- **Backend API** : http://localhost:8081/api/todos
-- **PostgreSQL** : localhost:5432
+- **Frontend** : http://72.61.163.213:8080
+- **Backend API** : http://72.61.163.213:8081/api/todos
+- **PostgreSQL** : 72.61.163.213:5432
 
 ### Développement local
 
